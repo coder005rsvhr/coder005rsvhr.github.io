@@ -32,9 +32,16 @@
 			"elapse": 1000
 		},
 		{
-			"type":"inputstr",
-			"str":"https://docs.microsoft.com/learn/modules/welcome-to-azure/3-create-a-vm?pivots=windows-cloud",
+			"type":"copytext",
+			"text":"https://docs.microsoft.com/learn/modules/welcome-to-azure/3-create-a-vm?pivots=windows-cloud",
 			"elapse": 100
+		},
+		{
+			"type":"keypress",
+			"chr":"V",
+			"ctrl": 1,
+			"shift": 0,
+			"elapse": 1000
 		},
 		{
 			"type":"keypress",
