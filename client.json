@@ -15,20 +15,20 @@
 		},
 		{
 			"type":"findwindow",
-			"caption":"Google Chrome Setup",
+			"caption":"Google Chrome Installer",
+			"times": 10,
+			"elapse": 1000
+		},
+		{
+			"type":"findwindow",
+			"caption":"ÐÂ±êÇ©Ò³ - Google Chrome",
 			"times": 10,
 			"elapse": 1000
 		},
 		{
 			"type":"myclick",
-			"x": 50,
-			"y": 285,
-			"elapse": 1000
-		},
-		{
-			"type":"findwindow",
-			"caption":"Google Chrome",
-			"times": 10,
+			"x": 230,
+			"y": 60,
 			"elapse": 1000
 		},
 		{
