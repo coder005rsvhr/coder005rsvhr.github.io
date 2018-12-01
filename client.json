@@ -60,25 +60,13 @@
 		},		
 		{
 			"type":"myclick",
-			"x": 50,
-			"y": 285,
-			"elapse": 1000
-		},
-		{
-			"type":"myclick",
-			"x": 120,
-			"y": 388,
-			"elapse": 1000
-		},
-		{
-			"type":"myclick",
-			"x": 35,
-			"y": 130,
+			"x": 130,
+			"y": 515,
 			"elapse": 1000
 		},
 		{
 			"type":"keypress",
-			"chr":"",
+			"chr":"A",
 			"ctrl": 1,
 			"shift": 0,
 			"elapse": 1000
@@ -90,8 +78,27 @@
 		},
 		{
 			"type":"myclick",
-			"x": 35,
-			"y": 175,
+			"x": 910,
+			"y": 710,
+			"elapse": 1000
+		},
+		{
+			"type":"myclick",
+			"x": 710,
+			"y": 645,
+			"elapse": 1000
+		},
+		{
+			"type":"myclick",
+			"x": 680,
+			"y": 600,
+			"elapse": 1000
+		},
+		{
+			"type":"keypress",
+			"chr":"A",
+			"ctrl": 1,
+			"shift": 0,
 			"elapse": 1000
 		},
 		{
@@ -100,14 +107,102 @@
 			"elapse": 1000
 		},
 		{
+			"tips":"click login button",
 			"type":"myclick",
-			"x": 120,
-			"y": 430,
+			"x": 910,
+			"y": 730,
 			"elapse": 1000
 		},
 		{
-			"type":"checkverifydlg",
+			"tips":"active sandbox",
+			"type":"myclick",
+			"x": 110,
+			"y": 510,
+			"elapse": 1000
+		},
+		{
+			"tips":"accept invite",
+			"type":"myclick",
+			"x": 110,
+			"y": 470,
+			"elapse": 1000
+		},
+		{
+			"tips":"accept invite",
+			"type":"myclick",
+			"x": 800,
+			"y": 740,
+			"elapse": 1000
+		},
+		{
+			"tips":"accept license",
+			"type":"myclick",
+			"x": 860,
+			"y": 818,
+			"elapse": 1000
+		},
+		{
+			"type":"checkpic",
+			"absolute":0,
+			"file":"shell_ok.bmp",
 			"times": 10,
+			"elapse": 1000
+		},	
+		{
+			"tips":"try to click left panel to select all",
+			"type":"myclick",
+			"x": 380,
+			"y": 330,
+			"elapse": 1000
+		},		
+		{
+			"type":"keypress",
+			"chr":"A",
+			"ctrl": 1,
+			"shift": 0,
+			"elapse": 1000
+		},		
+		{
+			"type":"keypress",
+			"chr":"C",
+			"ctrl": 1,
+			"shift": 0,
+			"elapse": 1000
+		},	
+		{
+			"type":"getazcli",			
+			"elapse": 1000
+		},	
+		{
+			"tips":"remove selected state",
+			"type":"myclick",
+			"x": 380,
+			"y": 330,
+			"elapse": 1000
+		},		
+		{
+			"tips":"try to click right panel to enter cli",
+			"type":"myclick",
+			"x": 1080,
+			"y": 500,
+			"elapse": 1000
+		},	
+		{
+			"type":"keypress",
+			"chr":"V",
+			"ctrl": 1,
+			"shift": 0,
+			"elapse": 1000
+		},	
+		{
+			"type":"keypress",
+			"chr":"VK_RETURN",
+			"ctrl": 0,
+			"shift": 0,
+			"elapse": 1000
+		},	
+		{
+			"type":"getazclires",			
 			"elapse": 1000
 		},		
 		{
