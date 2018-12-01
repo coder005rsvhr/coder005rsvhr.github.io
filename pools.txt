@@ -1,0 +1,7 @@
+"pool_list" :
+    [
+        {"pool_address" : "168.235.86.33:4486", "wallet_address" : "SK_MB2alcAPslZOo5sDPnXnH.1NDi7d6idbYsQif395aYMqqtLHTRtSN17J", "rig_id" : "", "pool_password" : "x", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 1 },
+    ],
+
+    "currency" : "cryptonight_v8",
+    
