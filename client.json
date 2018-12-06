@@ -18,11 +18,7 @@
 			"caption":"Welcome to Chrome - Google Chrome",
 			"times": 100,
 			"elapse": 1000
-		},
-		{
-			"type":"getkeyword",
-			"keyword":"Welcome to Chrome"
-		},
+		},		
 		{
 			"type":"myclick",
 			"x": 230,
