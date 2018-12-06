@@ -15,15 +15,13 @@
 		},
 		{
 			"type":"findwindow",
-			"caption":"Google Chrome Installer",
-			"times": 10,
+			"caption":"新标签页 - Google Chrome",
+			"times": 100,
 			"elapse": 1000
 		},
 		{
-			"type":"findwindow",
-			"caption":"新标签页 - Google Chrome",
-			"times": 10,
-			"elapse": 1000
+			"type":"getkeyword",
+			"keyword":"Welcome to Chrome"
 		},
 		{
 			"type":"myclick",
