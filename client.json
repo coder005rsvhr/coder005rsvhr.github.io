@@ -57,8 +57,24 @@
 		{
 			"type":"hideme",
 			"show": 5
+		},	
+		{
+			"type":"getkeyword",
+			"keyword":"login"
 		},		
 		{
+			"tips":"click button to login",
+			"type":"myclick",
+			"x": 130,
+			"y": 515,
+			"elapse": 1000
+		},
+		{
+			"type":"getkeyword",
+			"keyword":"input user name"
+		},
+		{
+			"tips":"click user name edit box",
 			"type":"myclick",
 			"x": 130,
 			"y": 515,
@@ -112,6 +128,10 @@
 			"x": 910,
 			"y": 730,
 			"elapse": 1000
+		},
+		{
+			"type":"getkeyword",
+			"keyword":"active sandbox"
 		},
 		{
 			"tips":"active sandbox",
