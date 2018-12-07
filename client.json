@@ -18,7 +18,16 @@
 			"caption":"Welcome to Chrome - Google Chrome",
 			"times": 100,
 			"elapse": 1000
-		},		
+		},
+		{
+			"type": "checkpixel",
+			"x": 345,
+			"y": 330,
+			"r": 29,
+			"g": 68,
+			"b": 55,
+			"elapse": 1000
+		},			
 		{
 			"type":"myclick",
 			"x": 230,
@@ -53,25 +62,25 @@
 			"show": 5
 		},	
 		{
-			"type":"getkeyword",
-			"keyword":"login"
+			"type":"checkpic",
+			"file":"step_1_signin.bmp"
 		},		
 		{
 			"tips":"click button to login",
 			"type":"myclick",
-			"x": 130,
-			"y": 515,
+			"x": 160,
+			"y": 600,
 			"elapse": 1000
 		},
 		{
-			"type":"getkeyword",
-			"keyword":"input user name"
-		},
+			"type":"checkpic",
+			"file":"step_2_login.bmp"
+		},	
 		{
 			"tips":"click user name edit box",
 			"type":"myclick",
-			"x": 130,
-			"y": 515,
+			"x": 400,
+			"y": 650,
 			"elapse": 1000
 		},
 		{
@@ -88,20 +97,24 @@
 		},
 		{
 			"type":"myclick",
-			"x": 910,
+			"x": 650,
+			"y": 780,
+			"elapse": 1000
+		},
+		{
+			"type":"myclick",
+			"x": 460,
 			"y": 710,
 			"elapse": 1000
 		},
 		{
-			"type":"myclick",
-			"x": 710,
-			"y": 645,
-			"elapse": 1000
+			"type":"checkpic",
+			"file":"step_4_password.bmp"
 		},
 		{
 			"type":"myclick",
-			"x": 680,
-			"y": 600,
+			"x": 380,
+			"y": 670,
 			"elapse": 1000
 		},
 		{
@@ -119,26 +132,40 @@
 		{
 			"tips":"click login button",
 			"type":"myclick",
-			"x": 910,
-			"y": 730,
+			"x": 655,
+			"y": 790,
 			"elapse": 1000
 		},
 		{
-			"type":"getkeyword",
-			"keyword":"active sandbox"
+			"type":"checkpic",
+			"file":"step_7_stay.bmp"
+		},
+		{
+			"type":"myclick",
+			"x": 540,
+			"y": 820,
+			"elapse": 1000
+		},
+		{
+			"type":"checkpic",
+			"file":"step_5_activate.bmp"
 		},
 		{
 			"tips":"active sandbox",
 			"type":"myclick",
-			"x": 110,
-			"y": 510,
+			"x": 120,
+			"y": 600,
 			"elapse": 1000
+		},
+		{
+			"type":"checkpic",
+			"file":"step_6_accept.bmp"
 		},
 		{
 			"tips":"accept invite",
 			"type":"myclick",
-			"x": 110,
-			"y": 470,
+			"x": 120,
+			"y": 535,
 			"elapse": 1000
 		},
 		{
