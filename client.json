@@ -140,16 +140,6 @@
 		},
 		{
 			"type":"checkpic",
-			"file":"step_7_stay.bmp"
-		},
-		{
-			"type":"myclick",
-			"x": 540,
-			"y": 790,
-			"elapse": 1000
-		},
-		{
-			"type":"checkpic",
 			"file":"step_5_activate.bmp"
 		},
 		{
@@ -157,31 +147,6 @@
 			"type":"myclick",
 			"x": 120,
 			"y": 570,
-			"elapse": 1000
-		},
-		{
-			"type":"checkpic",
-			"file":"step_6_accept.bmp"
-		},
-		{
-			"tips":"accept invite",
-			"type":"myclick",
-			"x": 120,
-			"y": 505,
-			"elapse": 1000
-		},
-		{
-			"tips":"accept invite",
-			"type":"myclick",
-			"x": 800,
-			"y": 710,
-			"elapse": 1000
-		},
-		{
-			"tips":"accept license",
-			"type":"myclick",
-			"x": 860,
-			"y": 788,
 			"elapse": 1000
 		},
 		{
