@@ -206,6 +206,12 @@
 					"ctrl": 0,
 					"shift": 0,
 					"elapse": 1000
+				},
+				{
+					"type":"stepstatus",
+					"stepid":"shellok",
+					"enable": 0,
+					"elapse": 1000
 				}
 			]
 		}
