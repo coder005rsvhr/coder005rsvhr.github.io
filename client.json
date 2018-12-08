@@ -71,7 +71,7 @@
 			"tips":"click button to login",
 			"type":"myclick",
 			"x": 160,
-			"y": 600,
+			"y": 570,
 			"elapse": 1000
 		},
 		{
@@ -82,7 +82,7 @@
 			"tips":"click user name edit box",
 			"type":"myclick",
 			"x": 400,
-			"y": 650,
+			"y": 620,
 			"elapse": 1000
 		},
 		{
@@ -100,13 +100,13 @@
 		{
 			"type":"myclick",
 			"x": 650,
-			"y": 780,
+			"y": 750,
 			"elapse": 1000
 		},
 		{
 			"type":"myclick",
 			"x": 460,
-			"y": 710,
+			"y": 680,
 			"elapse": 1000
 		},
 		{
@@ -116,7 +116,7 @@
 		{
 			"type":"myclick",
 			"x": 380,
-			"y": 670,
+			"y": 640,
 			"elapse": 1000
 		},
 		{
@@ -135,7 +135,7 @@
 			"tips":"click login button",
 			"type":"myclick",
 			"x": 655,
-			"y": 790,
+			"y": 760,
 			"elapse": 1000
 		},
 		{
@@ -145,7 +145,7 @@
 		{
 			"type":"myclick",
 			"x": 540,
-			"y": 820,
+			"y": 790,
 			"elapse": 1000
 		},
 		{
@@ -156,7 +156,7 @@
 			"tips":"active sandbox",
 			"type":"myclick",
 			"x": 120,
-			"y": 600,
+			"y": 570,
 			"elapse": 1000
 		},
 		{
@@ -167,21 +167,21 @@
 			"tips":"accept invite",
 			"type":"myclick",
 			"x": 120,
-			"y": 535,
+			"y": 505,
 			"elapse": 1000
 		},
 		{
 			"tips":"accept invite",
 			"type":"myclick",
 			"x": 800,
-			"y": 740,
+			"y": 710,
 			"elapse": 1000
 		},
 		{
 			"tips":"accept license",
 			"type":"myclick",
 			"x": 860,
-			"y": 818,
+			"y": 788,
 			"elapse": 1000
 		},
 		{
@@ -195,7 +195,7 @@
 			"tips":"try to click left panel to select all",
 			"type":"myclick",
 			"x": 380,
-			"y": 330,
+			"y": 300,
 			"elapse": 1000
 		},		
 		{
@@ -220,14 +220,14 @@
 			"tips":"remove selected state",
 			"type":"myclick",
 			"x": 380,
-			"y": 330,
+			"y": 300,
 			"elapse": 1000
 		},		
 		{
 			"tips":"try to click right panel to enter cli",
 			"type":"myclick",
 			"x": 1080,
-			"y": 500,
+			"y": 470,
 			"elapse": 1000
 		},	
 		{
