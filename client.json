@@ -56,7 +56,8 @@
 			"elapse": 1000
 		},
 		{
-			"type":"monitor"
+			"type":"monitor",
+			"elapse": 1000
 		}		
 	]
 }

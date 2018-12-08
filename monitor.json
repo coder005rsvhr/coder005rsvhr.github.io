@@ -126,6 +126,27 @@
 			]	
 		},
 		{
+			"id": "vmrunning",
+			"cond": "step_9_vmrun.bmp",
+			"actions":[	
+				{
+					"type":"getazclires",	
+					"x": 580,
+					"y": 330,
+					"w": 150,
+					"h": 500,
+					"elapse": 1000
+				},		
+				{
+					"type":"hideme",
+					"show": 5
+				},
+				{
+					"type":"exit"			
+				}
+			]
+		},
+		{
 			"id": "shellok",
 			"cond": "shell_ok.bmp",
 			"actions":[	
@@ -164,15 +185,19 @@
 				{
 					"tips":"try to click right panel to enter cli",
 					"type":"myclick",
-					"x": 1080,
+					"x": 640,
 					"y": 470,
 					"elapse": 1000
 				},	
 				{
-					"type":"keypress",
-					"chr":"V",
-					"ctrl": 1,
-					"shift": 0,
+					"type":"click",
+					"isleft": 0,
+					"elapse": 1000
+				},
+				{
+					"type":"myclick",
+					"x": 688,
+					"y": 595,
 					"elapse": 1000
 				},	
 				{
@@ -181,17 +206,6 @@
 					"ctrl": 0,
 					"shift": 0,
 					"elapse": 1000
-				},	
-				{
-					"type":"getazclires",			
-					"elapse": 1000
-				},		
-				{
-					"type":"hideme",
-					"show": 5
-				},
-				{
-					"type":"exit"			
 				}
 			]
 		}
