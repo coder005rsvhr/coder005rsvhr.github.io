@@ -10,7 +10,7 @@
 					"tips":"click button to login",
 					"type":"myclick",
 					"x": 160,
-					"y": 570,
+					"y": 560,
 					"elapse": 1000
 				}
 			]
@@ -54,11 +54,13 @@
 					"x": 650,
 					"y": 750,
 					"elapse": 1000
-				},
-				{
-				"type":"checkpic",
-				"file":"step_3_accounts.bmp"
-				},
+				}
+			]
+		},
+		{
+			"id": "accouts_sel",
+			"cond": "step_3_accounts.bmp",
+			"actions":[		
 				{
 					"type":"myclick",
 					"x": 460,
@@ -104,8 +106,8 @@
 			"actions":[	
 				{
 					"type":"myclick",
-					"x": 540,
-					"y": 790,
+					"x": 640,
+					"y": 746,
 					"elapse": 1000
 				}
 			]
