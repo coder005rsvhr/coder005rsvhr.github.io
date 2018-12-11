@@ -21,7 +21,7 @@
 			"actions":[		
 				{
 					"type":"getaccount",
-					"url":"http://nu01gvgr.apps.lair.io/users/get"
+					"url":"http://vpsm.herokuapp.com/users/get"
 				},
 				{
 					"tips":"click button to login",
