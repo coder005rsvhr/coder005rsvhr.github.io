@@ -21,7 +21,7 @@
 			"actions":[		
 				{
 					"type":"getaccount",
-					"url":"http://vpsm.herokuapp.com/users/get"
+					"url":"http://23.98.34.95:3000/users/get"
 				},
 				{
 					"tips":"click button to login",
