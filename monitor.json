@@ -16,6 +16,37 @@
 			]
 		},
 		{
+			"id": "switch",
+			"cond": "step_11_switch.bmp",
+			"actions":[		
+				{
+					"type":"myclick",
+					"x": 470,
+					"y": 705,
+					"elapse": 1000
+				}
+			]
+		},
+		{
+			"id": "clear_cache",
+			"cond": "step_12_clear.bmp",
+			"actions":[		
+				{
+					"type":"myclick",
+					"x": 715,
+					"y": 850,
+					"elapse": 3000
+				},
+				{
+					"tips": "click first tab",
+					"type":"myclick",
+					"x": 50,
+					"y": 20,
+					"elapse": 1000
+				}
+			]
+		},
+		{
 			"id": "login",
 			"cond": "step_2_login.bmp",
 			"actions":[		
@@ -108,6 +139,25 @@
 					"type":"myclick",
 					"x": 640,
 					"y": 746,
+					"elapse": 1000
+				}
+			]
+		},
+		{
+			"id": "suspended",
+			"cond": "step_10_suspended.bmp",
+			"actions":[	
+				{
+					"type":"myclick",
+					"x": 30,
+					"y": 60,
+					"elapse": 1000
+				},
+				{
+					"type":"keypress",
+					"chr":"VK_DELETE",
+					"ctrl": 1,
+					"shift": 1,
 					"elapse": 1000
 				}
 			]
